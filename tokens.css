@@ -1069,7 +1069,8 @@ font-weight: 200;
         position: fixed;
         width: 0%;
         height: 100vh;
-        overflow-x:hidden;
+   
+    
     }
 
     .side-bar.active {
@@ -1092,10 +1093,6 @@ font-weight: 200;
 
     .purchases-content {
         grid-template-columns: 1fr 1fr;
-    }
-    
-    .middle { /*MIDDLE */
-        z-index:10;
     }
     
 
@@ -1121,6 +1118,18 @@ font-weight: 200;
 
 
 @media (max-width:480px) {
+    
+    .side-bar {
+        position: fixed;
+        width: 0%;
+        height: 100vh;
+        overflow-x:hidden;
+        z-index:20;
+    }
+
+    .side-bar.active {
+        width: 100%;
+    }
 
     .middle { /*MIDDLE */
         width: 400px;
