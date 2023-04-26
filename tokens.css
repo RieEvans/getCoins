@@ -1120,14 +1120,22 @@ font-weight: 200;
 @media (max-width:480px) {
     
     .side-bar {
-        position: relative;
+        position: fixed;
         width: 0%;
         height: 100vh;
         overflow-x:hidden;
+        opacity:0;
     }
+    
+    .side-bar .sb-content {
+      overflow:hidden;
+      
+    }
+    
 
     .side-bar.active {
         width: 100%;
+        opacity:1;
     }
 
     .middle { /*MIDDLE */
