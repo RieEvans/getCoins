@@ -1069,6 +1069,7 @@ font-weight: 200;
         position: fixed;
         width: 0%;
         height: 100vh;
+        overflow-x:hidden;
     }
 
     .side-bar.active {
@@ -1092,6 +1093,11 @@ font-weight: 200;
     .purchases-content {
         grid-template-columns: 1fr 1fr;
     }
+    
+    .middle { /*MIDDLE */
+        z-index:10;
+    }
+    
 
 }
 
