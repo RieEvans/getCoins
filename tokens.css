@@ -677,6 +677,10 @@ font-weight: 200;
     gap: 1rem;
 }
 
+.rightSide .rsContent::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
 .rightSide .rsContent .friendsOnline {
     position: relative;
     display: flex;
